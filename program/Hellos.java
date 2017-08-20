@@ -18,7 +18,7 @@ public class Hellos {
         return "Nic says 'Howdy!'\n";
     }
 
-    public static String kk_says_hello() {
+    private static String kk_says_hello() {
         return "KK says 'Hello!'\n";
     }
 
