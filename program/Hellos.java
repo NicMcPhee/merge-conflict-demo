@@ -8,8 +8,13 @@ public class Hellos {
 	StringBuilder builder = new StringBuilder();
 
 	builder.append("Hello, folks!\n");
+	builder.append(kk_says_hello());
 
 	System.out.println(builder.toString());
+    }
+
+    public static String kk_says_hello() {
+	return "KK says 'Hello!'\n";
     }
 
 }
