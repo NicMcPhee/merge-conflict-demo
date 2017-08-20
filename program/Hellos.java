@@ -13,7 +13,7 @@ public class Hellos {
 		System.out.println(builder.toString());
 	}
 
-	public static String nic_says_hello() {
+	private static String nic_says_hello() {
 		return "Nic says 'Howdy!'\n";
 	}
 
